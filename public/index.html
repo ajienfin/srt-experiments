@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script src="assets/js/socket.io.js"></script>
+    <style>
+        #media{
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <canvas width="640" height="360"></canvas> -->
+    <video id="media" autoplay muted></video>
+    <nav>
+        <button data-action="start-capture">Start capturing</button>
+        <button data-action="goLive">Go Live</button>
+        <button data-action="stopStreaming">Stop</button>
+    </nav>
+    <!-- <script src="canvas-render.js"></script> -->
+    <script src="displaycapture.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
